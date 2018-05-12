@@ -1,0 +1,16 @@
+@font-face {
+	font-family:'nino_mtavruli_bold';
+	   src: url(../Fonts/BPGNinoMtavruli-Bold.woff2) format("woff2"),
+       url(../Fonts/BPGNinoMtavruli-Bold.woff) format("woff");
+}
+@font-face {
+font-family:'nino_mtavruli_normal';
+	   src: url(../Fonts/BPGNinoMtavruli.woff2) format("woff2"),
+       url(../Fonts/BPGNinoMtavruli.woff) format("woff");
+}
+@font-face {
+font-family:nino-mkhedruli-book;
+	   src: url(../Fonts/BPGNinoMkhedruli.woff2) format("woff2"),
+	     url(../Fonts/BPGNinoMkhedruli.woff) format("woff");
+      
+}
