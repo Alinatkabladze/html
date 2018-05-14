@@ -1,0 +1,493 @@
+/*header-*/
+.logo {
+	width:162px;
+	height:30px;
+	display: inline-block;
+    margin-top: 30px;
+}
+
+header li {
+	display:inline-block;
+	line-height:100px;
+	padding-left: 33px;
+	
+}
+header {
+	font-family:'nino_mtavruli_bold';
+	width: 100%;
+	
+}
+.navigation {
+	float:right;
+}
+nav a:hover {
+	color: #B8EDF8;
+	transition:color 0.5s;
+
+}
+
+.navicon {
+	display:none;
+	float:right;
+	border-left:2px solid  #B8EDF8 ;
+	height:100px;
+    width:75px;
+	padding-left: 35px;
+	padding-right:35px; 
+	padding-top: 35px;
+}
+
+
+.navicon span {
+	width : 40px;
+	height : 4px;
+	background: #B8EDF8;
+    display:block;
+    margin-top:  6px;
+    margin-bottom: 5px;
+}
+.container-wide {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.student {
+	position:absolute;
+	margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+	text-align:center;
+	top:60%;
+	width:100%;
+	color:#FFFFFF;
+	font-size:28px;
+	
+
+}
+ h2  {
+	font-size:26px;
+	font-family:nino-mkhedruli-book;
+}
+h1 {
+	font-size:32px;
+	margin-bottom:15px;
+	font-family:'nino_mtavruli_bold';
+}
+/*services-*/
+
+.container-main {
+	margin-right: 30px;
+	margin-left: 30px;
+}
+.services {
+text-align:center;
+margin-right:10px;
+margin-left:10px;
+border: 1px solid #B2B2B2;
+}
+.flex-container {
+	display:flex;
+	flex-direction:row;
+	justify-content: space-around;
+	margin-right: 60px;
+	margin-left: 60px;
+	
+}
+
+/*box-*/
+
+.flex-child:nth-of-type(4) {
+	margin-right:0px;
+}
+.flex1 {
+	width:48px;
+}
+.flex2 {
+     width:73px;
+}
+.flex3{
+	width:79px;
+}
+.flex4{
+	width:76px;
+}
+.flex-child img {
+	margin-top:33px;
+
+}
+.flex-child span {
+   width:25px;
+   height:1px;
+   background-color:#b8edf8;
+   display:block;
+   margin-right: auto;
+   margin-left: auto;
+	margin-top:15px;
+   
+}
+.flex-child {
+
+	height : 90px;
+}
+.flexp {
+padding-right: 30px;
+padding-left: 30px;
+font-family:nino-mkhedruli-book;
+font-size:12px;
+margin-bottom:45px;
+}
+.workspan {
+	width:98px;
+   height:2px;
+   background-color:black;
+   display:block;
+   margin-right: auto;
+   margin-left: auto;
+   margin-bottom:60px;
+	
+}
+.title1, .title2, .title4 {
+	font-family:'nino_mtavruli_bold';
+	font-size:22px;
+	text-align:center;
+	padding-top: 60px;
+	margin-bottom:15px;
+}
+
+h5 {
+	margin-top:60px;
+	margin-bottom:15px; 
+	font-family:'nino_mtavruli_bold';
+	text-align:center;
+}
+
+/*homework-*/
+.works {
+	margin-left: 5.3%;
+
+}
+.davaleba1, .davaleba2, .davaleba3, .davaleba4, .davaleba5, .davaleba6 {
+
+   display: inline-block;
+	border: 2px solid #B8EDF8;
+	margin-right: 2.28%;
+	width: 30%;
+	position: relative;
+	margin-left: -4px;
+	
+	
+}
+.davaleba3,.davaleba6{
+	margin-right: 0px;
+}
+
+.davaleba1, .davaleba4 {
+	margin-bottom: 30px;
+
+}
+.davaleba5, .davaleba6 {
+	margin-bottom: 30px;
+}
+
+/*hover-*/
+
+.overlay{
+	position: absolute;
+	opacity: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #B8EDF8;
+	top: 0;
+	left: 0;
+	bottom: -100%;
+	right: 0;
+	transition: .5s ease;
+}
+.hover {
+	width: 44px;
+	height: 44px;
+	transform: translate(360%,100%);
+}
+.overlay p{
+	font-size: 14pt;
+	font-family: "BPG Glaho WEB Caps", sans-serif;
+	color: #FFFFFF;
+	margin-left: 22%; 
+	margin-top: 23%;
+	opacity: 1;
+}
+.davaleba1:hover .overlay{
+	bottom:0%;
+	opacity: 1;
+	cursor:pointer;
+	opacity: 0.9;
+}
+.davaleba2 {
+overflow:hidden;
+}
+.davaleba2 img {
+	width:100%;
+	transition:transform .7s;
+}
+.davaleba2:hover img {
+ transform: scale(1.5,1.5);
+}
+
+/*bio-*/
+.grey {
+	background-color: #F1F1F1;
+	margin-top: 30px;
+}
+.bio {
+
+position: relative;
+	padding-top: 60px;
+	padding-bottom: 100px;
+	display: flex;
+	margin-left:60px;
+	margin-right:60px;
+}
+.image {
+	margin-left:1.9%;
+}
+.bio .text {
+	
+	vertical-align: top;
+	margin-left: 15.7%;
+}
+.bio span {
+	margin-left: 0%;
+}	
+
+.title3 {
+	font-family:'nino_mtavruli_bold';
+	font-size:22px;
+	padding-top: 30px;
+	margin-bottom:15px;
+    margin-left: 0%;
+}
+
+.bio img {
+  position: relative;
+	width: 370px;
+	height: 330px;
+
+   
+}
+.background {
+ position: absolute;
+	width: 100%;
+	width: 370px;
+	height: 330px;
+	margin-left: 30px;
+	margin-top: 30px;
+	background-color: #B8EDF8;
+}
+
+p {
+	font-family:nino-mkhedruli-book;
+}
+
+/*form-*/
+.container-form {
+	background-color: #B8EDF8;
+	padding-bottom: 112px;
+}
+
+div .form {
+	display:flex;
+	justify-content:center;
+}
+form {
+	width:555px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+input, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #333333;
+	margin-bottom: 21px;
+	background-color: #B8EDF8;
+}
+button {
+	
+	float:right;
+	 background-color: #7ec4ce;
+    border: none;
+    color: white;
+    padding: 6.2px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 13px;
+    cursor: pointer;
+	font-family:nino-mkhedruli-book;
+	
+}
+.form p {
+	display: inline-block;
+	line-height: 30px;
+	font-size:12px;
+}
+/*footer*/
+footer{
+	height: 95px;
+	background-color: #313332;
+	padding-left: 35px;
+	padding-right: 35px;
+}
+footer h6 {
+	display: inline-block;
+	color: #FFFFFF;
+	line-height: 95px;
+	font-size:12px;
+
+}
+footer img {
+	float: right;
+	width: 162px;
+	height: 32px;
+	margin-top: 32px;
+}
+
+/*responsive - */
+
+@media all and (max-width: 992px) {
+	.navicon {
+		display:block;
+
+	}
+	
+	nav ul {
+		display:none;
+
+	}
+	.services {
+		width:47%;
+		margin:1.5%;
+	}
+	.flex-container {
+		margin:0%;
+	   flex-flow:wrap;
+	}
+	
+.flex-child{
+	margin-right: auto;
+	margin-left: auto;
+	width:50%;
+}
+
+.student {
+	top:40%;
+}
+	.works{
+		display: inline-block;
+		width: 98%;
+		margin-left:0%;
+	}
+	.davaleba1, .davaleba3, .davaleba4, .davaleba5,.davaleba6{
+		margin: 0;
+		float:left;
+		width: 48.3%;
+		margin-right: 3.3%;
+		margin-bottom: 21px;
+	}
+	.davaleba2{
+		width:48.3%;
+	}
+	.davaleba2, .davaleba4, .davaleba6{
+		margin-right: 0;
+	}
+.bio {
+	margin-left:30px;
+	margin-right:30px;
+}
+	
+}
+
+@media all and (max-width: 768px) {
+	.navicon {
+		display:block;
+	}
+	nav ul {
+		display:none;
+	}
+ 
+    .bio {
+    	display:block;
+    }
+
+	 .image, .text  {
+        margin: 0;
+		width: 100%;
+		height: auto;
+
+    }
+    .text {
+    	margin-top: 100px;
+    	width:auto;
+    	margin-right:50px;
+
+    }
+    .bio .text {
+    	margin:0;
+    	margin-top:100px;
+    }
+    .bio img, .image .background{
+		width: 97.8%;
+		height: 500px;
+	}
+
+.student {
+	top:35%;
+}
+h1 {
+	font-size:25px;
+}
+h2 {
+	font-size:22px;
+}
+.overlay {
+	display:none;
+}
+
+}
+@media all and (max-width: 576px) {
+	.navicon {
+		display:block;
+	}
+	.services {
+		width:90%;
+		margin:2%;
+	}
+	.student {
+	top:30%;
+  }
+  form {
+  	width:100%;
+  }
+
+h1 {
+	font-size:20px;
+}
+h2 {
+	font-size:18px;
+}
+.davaleba1, .davaleba2, .davaleba3, .davaleba4, .davaleba5,.davaleba6{
+		
+		width: 93.6%;
+		margin-bottom: 27px;
+		margin-left:5.8%;
+	}
+	
+.form {
+	width:90%;
+	margin-left:5%;
+
+}
+footer h6 {
+	font-size:10px;
+}
+
+}
